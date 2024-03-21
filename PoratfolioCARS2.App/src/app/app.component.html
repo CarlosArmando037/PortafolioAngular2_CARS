@@ -178,46 +178,43 @@
 </style>
  -->
  <body>
-   <main>
-   
-     <div>
-       <h1>Portafolio</h1>
-   
-     </div>
-     
-     <div class="InfPersonal">
-      <h2 id="algo">Acerca de mi:</h2>
-      <label>Descripcion de mi mismo</label>
-     </div>
-     <br>
-     <div class="infoProyectos">
-      <h2 id="proyectTitle">
-        proyectos realizados
-      </h2>
-       <table>
-         <thead>
-           <th>Nombre</th>
-           <th>Descripcion</th>
-           <th>Enlace</th>
-         </thead>
-         <tbody>
-           @for(item of proyectos; track item.id){
-             
-             <tr class="eltr">
-               <td class="CamNomb">{{item.nombre}}</td>
-               <td>{{item.descripcion}}</td>
-               <td>{{item.enlace}}</td>
-             </tr>
-           } 
-         </tbody>
-       </table>
-   
-     </div>
-
-   </main>
-
- </body>
-
+  <main>
+      <div>
+          <h1>Portafolio</h1>
+      </div>
+      
+      <div class="InfPersonal">
+          <h2 id="algo">Acerca de mi:</h2>
+          <p>Inserta aquí una breve descripción sobre ti.</p>
+      </div>
+      <br>
+      <div class="infoProyectos">
+          <h2 id="proyectTitle">Proyectos realizados</h2>
+          <table>
+            <thead>
+              <th>Nombre</th>
+              <th>Descripcion</th>
+              <th>Enlace</th>
+            </thead>
+            <tbody>
+              @for(item of proyectos; track item.id){
+                
+                <tr class="eltr">
+                  <td class="CamNomb">{{item.nombre}}</td>
+                  <td>{{item.descripcion}}</td>
+                  <td>{{item.enlace}}</td>
+                </tr>
+              } 
+            </tbody>
+          </table>
+      </div>
+      
+      <div class="contacto">
+          <h2>Contacto</h2>
+          <p>Inserta aquí información de contacto, como tu correo electrónico o redes sociales.</p>
+      </div>
+  </main>
+</body>
 <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
 <!-- * * * * * * * * * * * The content above * * * * * * * * * * * * -->
 <!-- * * * * * * * * * * is only a placeholder * * * * * * * * * * * -->

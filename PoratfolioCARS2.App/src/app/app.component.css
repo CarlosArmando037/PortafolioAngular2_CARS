@@ -1,39 +1,37 @@
-body{
-    background-color: darkgray;
-    font-family: Arial, Helvetica, sans-serif;
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
 }
-thead{
-    background-color: black;
-    color:white;
-    height: 45px;
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
 }
-h1{
-    text-align: center;
-    font-size: 65px;
-    border-color: black;
+h1, h2 {
+    color: red;
 }
-td{
-    height: 75px;
-    font-size: 18px;
-    background-color: white;
-    border-radius: 15px;
-    color: black;
-    text-align: auto;
+.InfPersonal {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
 }
-.CamNomb{
-    text-transform: uppercase;
+.infoProyectos {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
 }
-.InfPersonal{
-    background-color: #5555;
-    margin-top:-20px;
+table {
+    width: 100%;
+    border-collapse: collapse;
 }
-#algo{
-    text-align: center;
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
 }
-#proyectTitle{
-    text-align: center;
-    width: auto;
-}
-.infoProyectos{
-    background-color: #5555;
+th {
+    background-color: #f2f2f2;
 }
