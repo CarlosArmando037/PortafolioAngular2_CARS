@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "dist/browser",
+    "public": "dist/poratfolio-cars2.app/browser",
     "ignore": [
       "firebase.json",
       "**/.*",

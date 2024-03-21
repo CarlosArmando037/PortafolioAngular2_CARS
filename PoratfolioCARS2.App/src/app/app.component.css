@@ -2,16 +2,18 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f0f0f0;
+    background-color: darkgray;
 }
 main {
-    max-width: 800px;
+    max-width: 900px;
     margin: 0 auto;
     padding: 20px;
 }
-h1, h2 {
+h1,h2 {
     color: red;
+    text-transform: uppercase;
 }
+
 .InfPersonal {
     background-color: #fff;
     padding: 20px;
@@ -22,6 +24,7 @@ h1, h2 {
     background-color: #fff;
     padding: 20px;
     border-radius: 10px;
+    
 }
 table {
     width: 100%;
@@ -31,7 +34,19 @@ th, td {
     border: 1px solid #ddd;
     padding: 8px;
     text-align: left;
+    
 }
 th {
-    background-color: #f2f2f2;
+    background-color: #666;
+    color: white;
+
+}
+#btnGatos{
+    text-align: center;
+    
+    
+}
+#enlaces{
+    border-radius: 15px;
+    
 }

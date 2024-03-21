@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\cd17\\Desktop\\portafolio 2\\ProyectoPortafolio_CARS\\PortafolioCARS.Api\\PortafolioCARS.Api.csproj": {}
+    "C:\\Users\\cd17\\Desktop\\portafolio2 algo\\PortafolioAngular2_CARS\\PortafolioCARS.Api\\PortafolioCARS.Api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\cd17\\Desktop\\portafolio 2\\ProyectoPortafolio_CARS\\PortafolioCARS.Api\\PortafolioCARS.Api.csproj": {
+    "C:\\Users\\cd17\\Desktop\\portafolio2 algo\\PortafolioAngular2_CARS\\PortafolioCARS.Api\\PortafolioCARS.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\cd17\\Desktop\\portafolio 2\\ProyectoPortafolio_CARS\\PortafolioCARS.Api\\PortafolioCARS.Api.csproj",
+        "projectUniqueName": "C:\\Users\\cd17\\Desktop\\portafolio2 algo\\PortafolioAngular2_CARS\\PortafolioCARS.Api\\PortafolioCARS.Api.csproj",
         "projectName": "PortafolioCARS.Api",
-        "projectPath": "C:\\Users\\cd17\\Desktop\\portafolio 2\\ProyectoPortafolio_CARS\\PortafolioCARS.Api\\PortafolioCARS.Api.csproj",
+        "projectPath": "C:\\Users\\cd17\\Desktop\\portafolio2 algo\\PortafolioAngular2_CARS\\PortafolioCARS.Api\\PortafolioCARS.Api.csproj",
         "packagesPath": "C:\\Users\\cd17\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\cd17\\Desktop\\portafolio 2\\ProyectoPortafolio_CARS\\PortafolioCARS.Api\\obj\\",
+        "outputPath": "C:\\Users\\cd17\\Desktop\\portafolio2 algo\\PortafolioAngular2_CARS\\PortafolioCARS.Api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

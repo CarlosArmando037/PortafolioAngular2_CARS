@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+GA4qvmY9hrobLuHg0V7CP7P1yaztJqYC+NYae97z8LM3N7tfIjx92DeUnUD8VXUnBvVMlSrL7bMJS13c0TzPQ==",
+  "dgSpecHash": "Q68FwmMUUNzrfVFFtbwxMXQNKX+X8ECG0iEmuhUybyr6Eh2J78LPrvTatSuTT70Nhsq45tWyCjlItM5pzlqEaQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\cd17\\Desktop\\portafolio 2\\ProyectoPortafolio_CARS\\PortafolioCARS.Api\\PortafolioCARS.Api.csproj",
+  "projectFilePath": "C:\\Users\\cd17\\Desktop\\portafolio2 algo\\PortafolioAngular2_CARS\\PortafolioCARS.Api\\PortafolioCARS.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\cd17\\.nuget\\packages\\awssdk.core\\3.7.100.14\\awssdk.core.3.7.100.14.nupkg.sha512",
     "C:\\Users\\cd17\\.nuget\\packages\\awssdk.securitytoken\\3.7.100.14\\awssdk.securitytoken.3.7.100.14.nupkg.sha512",
