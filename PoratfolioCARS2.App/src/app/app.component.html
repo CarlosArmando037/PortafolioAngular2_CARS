@@ -8,7 +8,7 @@
 <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
 <!--
  -->
- <body>
+ <body >
   <main>
       <div>
           <h1>Portafolio</h1>
@@ -31,9 +31,9 @@
             <tbody>
               @for(item of proyectos; track item.id){
                 <tr class="eltr">
-                  <td class="CamNomb">{{item.nombre}}</td>
+                  <td id="CamNomb">{{item.nombre}}</td>
                   <td>{{item.descripcion}}</td>
-                  <td>
+                  <td id="camEnlace">
                     <button id="enlaces" ><a href="{{item.enlace}}" target="_blank">ENLACES</a></button>
                   </td>
                 </tr>
@@ -52,11 +52,17 @@
           <button id="btnGatos">imagen de gato aqui!!</button>
         </div>
       </section>
+      <section class="">
+        
+      </section>
+      
       <div class="contacto">
+        <div id="contraste">
           <h2>Contacto</h2>
           <p>Correo: carlosramirezsalas400gmail.com</p>
           <p>Numero: 6441-18-79-05</p>
           <p>Git: <a href="https://github.com/CarlosArmando037">https://github.com/CarlosArmando037</a> </p>
+        </div>
       </div>
   </main>
 </body>

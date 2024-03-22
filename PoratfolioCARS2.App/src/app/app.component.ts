@@ -14,6 +14,7 @@ import { GatosApiService } from './Services/gatos-api.service';
 export class AppComponent 
 {
   data: any[]=[];
+  imageUrl ="";
 
   title = 'PortafolioCARS.App';
 
@@ -32,6 +33,7 @@ export class AppComponent
   llenarData(){
     this.gatosApi.getData().subscribe(data =>{
       this.data = data;
+      this.imageUrl = data.url;
       console.log(this.data)
     })
   }

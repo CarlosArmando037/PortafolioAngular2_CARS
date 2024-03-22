@@ -1,16 +1,44 @@
 body {
     font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: darkgray;
+    background-image: url('../fondoportafolio.avif');
+    background-size: cover;
 }
+
+
+.button_slide {
+    color: #FFF;
+    border: 2px solid rgb(216, 2, 134);
+    border-radius: 0px;
+    padding: 18px 36px;
+    display: inline-block;
+    font-family: "Lucida Console", Monaco, monospace;
+    font-size: 14px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    box-shadow: inset 0 0 0 0 #D80286;
+    -webkit-transition: ease-out 0.4s;
+    -moz-transition: ease-out 0.4s;
+    transition: ease-out 0.4s;
+  }
+  .slide_left:hover {
+    box-shadow: inset 0 0 0 50px #D80286;
+  }
+
+
+
 main {
-    max-width: 900px;
-    margin: 0 auto;
-    padding: 20px;
+    max-width: 700px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: -21px;
+    margin-bottom: -16px;
+    padding-top: 50px;
+    padding-left:150px ;
+    padding-right: 150px;
+    background-color: #333c;
 }
 h1,h2 {
-    color: red;
+    color: #aaccff;
     text-transform: uppercase;
 }
 
@@ -26,20 +54,31 @@ h1,h2 {
     border-radius: 10px;
     
 }
-table {
-    width: 100%;
-    border-collapse: collapse;
+#CamNomb{
+    width: auto;
 }
-th, td {
+.contacto{
+    background-color: darkgrey;
+    margin-left: auto;
+    margin-bottom: auto;
+    margin-right: auto;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    color:white;
+}
+
+td {
     border: 1px solid #ddd;
-    padding: 8px;
     text-align: left;
-    
+    margin: auto;
+}
+#camEnlace{
+    text-align: center;
+    width: auto;
 }
 th {
     background-color: #666;
     color: white;
-
 }
 #btnGatos{
     text-align: center;
@@ -48,5 +87,7 @@ th {
 }
 #enlaces{
     border-radius: 15px;
+    width: -10px;
+    height: -10px;
     
 }
