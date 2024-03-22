@@ -8,48 +8,63 @@
 <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
 <!--
  -->
- <body >
+<body>
+
   <main>
       <div>
           <h1>Portafolio</h1>
       </div>
-      
-      <div class="InfPersonal">
-          <h2 id="algo">Acerca de mi:</h2>
-          <p>Mi nombre es Carlos Armando Ramirez Salas, soy un apasionado desarrollador full stack, con conociminetos de C#, Angular, creacion y consumo de API's, usos de base de datos,
-            relacionales y no relacionales </p>
+      <h2 id="nombre">Carlos Armando Ramirez Salas</h2>
+      <div class="">
+        
+        <div class="InfPersonal">
+            <h2 id="algo">Acerca de mi:</h2>
+            <p>Soy un apasionado desarrollador full stack, con conociminetos de C#, Angular, creacion y consumo de API's y usos de base de datos
+              relacionales y no relacionales; estoy interesado en seguir aprendiendo mas conestas herramientas o aprender otras mas populares o utilizadas en las empresas. Vivo en Cd. Obregón pero estoy dispuesto a viajar a otros lugares, soy responsable, buen trabajador en equipo y 
+            estoy dispuesto a mejorar, tanto laboral como personalmente.</p>
+        </div>
+        <div class="tecnologias">
+          <h2>Tecnologías:</h2>
+          <ul>
+            <li>Angular - Una biblioteca de JavaScript para construir interf </li><img src="https://i.ibb.co/3Bm1MmY/angular-Logo.png" alt="Logo de Angular">
+            <li>MongoDB - Un entorno de ejecución para JavaScript en el servidor <img src="https://i.ibb.co/zH3P2wQ/Mongo-DBLogo.png" alt="Logo de MongoDB">.</li>
+            <li>Xamarin - Una plataforma para desarrollar, enviar y ejecutar aplicaciones en contenedores.<img src="https://i.ibb.co/VDwnrj5/Xamarin-Logo.png"  alt="Logo de Xamarin"></li>
+            <li>SQL - Un conjunto de servicios de computación en la nube que forman una plataforma en la nube ofrecida por Amazon.<img src="https://i.ibb.co/dDtj2qS/SQLlogo2.png" alt="SQL Logo"></li>
+            <li>Git - Un sistema de control de versiones distribuido para rastrear cambios en el código fuente durante el desarrollo de software.<img src="https://i.ibb.co/rH5ghs9/Github-Logo.png" alt="Github Logo"></li>
+          </ul>
+        </div>      
       </div>
       <br>
-      <div class="infoProyectos">
-          <h2 id="proyectTitle">Proyectos realizados</h2>
-          <table>
-            <thead>
+      <div class="table-container">
+        <table>
+          <thead>
+            <tr>
               <th>Nombre</th>
-              <th>Descripcion</th>
+              <th>Descripción</th>
               <th>Enlaces</th>
-            </thead>
-            <tbody>
-              @for(item of proyectos; track item.id){
-                <tr class="eltr">
-                  <td id="CamNomb">{{item.nombre}}</td>
-                  <td>{{item.descripcion}}</td>
-                  <td id="camEnlace">
-                    <button id="enlaces" ><a href="{{item.enlace}}" target="_blank">ENLACES</a></button>
-                  </td>
-                </tr>
-              } 
-            </tbody>
-          </table>
+            </tr>
+          </thead>
+          <tbody>
+            @for(item of proyectos; track item.id){
+              <tr>
+                <td>{{item.nombre}}</td>
+                <td>{{item.descripcion}}</td>
+                <td><a href="{{item.enlace}}" target="_blank">Enlaces</a></td>
+              </tr>
+            }
+            <!-- Repite las filas según sea necesario -->
+          </tbody>
+        </table>
       </div>
       <br>
       <section>
-        <div class="InfPersonal">
+        <div class="Apiperros">
           <h2 id="algo">API De Gatos</h2>
-          <p>esta API de gatos te muestra una imagen diferente de gatos cada vez que haces click en el boton.</p>
+          <p>Esta API de gatos te muestra una imagen de gatos cada que entras a la pagina o la recarges</p>
 
-          <img class="data" width="50"/>
-          
-          <button id="btnGatos">imagen de gato aqui!!</button>
+          <div class="center-div">
+            <img class="datacat" [src]="imageUrl" width="250" height="250"/>
+          </div>
         </div>
       </section>
       <section class="">
@@ -60,12 +75,13 @@
         <div id="contraste">
           <h2>Contacto</h2>
           <p>Correo: carlosramirezsalas400gmail.com</p>
-          <p>Numero: 6441-18-79-05</p>
+          <p>Numero: 6441-18-79-06</p>
           <p>Git: <a href="https://github.com/CarlosArmando037">https://github.com/CarlosArmando037</a> </p>
         </div>
       </div>
   </main>
 </body>
+
 <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
 <!-- * * * * * * * * * * * The content above * * * * * * * * * * * * -->
 <!-- * * * * * * * * * * is only a placeholder * * * * * * * * * * * -->
